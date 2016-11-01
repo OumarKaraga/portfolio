@@ -1,0 +1,18 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+	<title>myportfolio|form</title>
+</head>
+<center>
+     <body>
+	     <h2>Welcome , Please fill out the forms below</h2>
+
+	         <form action="" method="POST">
+		      {% csrf_token %}
+		       {{ form.as_p }}
+		       <input type="submit" value="submit"></input>
+	         </form>
+
+    </body>
+</center>
+</html>
